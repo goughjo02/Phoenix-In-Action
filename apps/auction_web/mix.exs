@@ -38,6 +38,7 @@ defmodule AuctionWeb.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.5.12"},
+      {:phoenix_ecto, "~> 4.4.0"},
       {:phoenix_html, "~> 2.11"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_dashboard, "~> 0.4"},
